@@ -1,4 +1,4 @@
-a=input()
+a=input() # вводим строку
 b=list(a)
 d=[]
 c=''
@@ -9,5 +9,5 @@ for i in b:
         d.append(int(c))
         c=''
 if c!='':
-    d.append(int(c))
+    d.append(int(c)) # добавляем в список
 print(d)
